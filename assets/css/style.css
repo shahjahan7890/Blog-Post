@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+	font-family: raleway-bold;
+	src: url(../fonts/Raleway/static/Raleway-ExtraBold.ttf);
+}
+@font-face {
+	font-family: raleway-r;
+	src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+.container{
+	background: green;
+}
+.mid{
+	width: 60%;
+	background: #ff0000;
+	margin: auto;
+	padding: 50px 30px;
+}
+.mid h1{
+	font-family: raleway-bold;
+	color: #fff;
+	font-size:60px;
+	letter-spacing: 2px;
+}
+.mid img{
+	width: 400px;
+	height: 200px;
+	padding: 20px 0;
+}
+.mid p{
+	color: #fff;
+	font-family: raleway-r;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
